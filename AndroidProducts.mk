@@ -1,12 +1,13 @@
 #
-# Copyright (C) Evolution-X
+# Copyright (C) OctaviOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_ginkgo.mk
+    $(LOCAL_DIR)/octavi_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_ginkgo-user \
-    evolution_ginkgo-userdebug
+    octavi_ginkgo-user \
+    octavi_ginkgo-userdebug \
+    octavi_ginkgo-eng

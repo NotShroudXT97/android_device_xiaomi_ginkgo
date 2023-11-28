@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2018-2019 The LineageOS Project
 # Copyright (C) 2020 Paranoid Android
@@ -361,6 +362,8 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     libjson \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl
 
 PRODUCT_PACKAGES += \
@@ -402,7 +405,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    vendor/qcom/opensource/usb/etc
 
 # Telephony
 PRODUCT_PACKAGES += \
